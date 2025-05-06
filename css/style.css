@@ -1,3 +1,4 @@
+/* Blocco Header */
 header {
     background-color: rgb(196, 165, 225);
     height: 50px;
@@ -8,15 +9,33 @@ header {
     align-items: center;
 }
 
+
+/* Container generale (uguale per tutti) */
 .container {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 70%;
     height: 95%;
     justify-content: space-between;
     background-color: rgb(245, 218, 178);
+    border: 1px dotted black;
+
 }
 
+/* Blocchi del Main (i riquadri più grandi) */
+.txt-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 335px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid grey;
+
+
+}
+
+/* Piccoli riquadri dell'header */
 #Logo {
     flex-grow: 1;
 }
@@ -27,4 +46,28 @@ header {
 
 #Login {
     flex-grow: 1;
+}
+
+/* Riquadri piccoli del MAIN */
+
+#img-1,
+#img-3 {
+    width: 65%;
+    background-color: rgb(122, 163, 214);
+}
+
+#text-1,
+#text-3 {
+    width: 35%;
+    background-color: rgb(207, 129, 155);
+}
+
+#img-2 {
+    width: 35%;
+    background-color: rgb(207, 129, 155);
+}
+
+#text-2 {
+    width: 65%;
+    background-color: rgb(122, 163, 214);
 }
