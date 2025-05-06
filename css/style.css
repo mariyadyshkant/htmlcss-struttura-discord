@@ -34,6 +34,7 @@ header {
     width: 50%;
     height: 80%;
     background-color: rgb(217, 217, 9);
+    border: 1px dotted rgb(32, 151, 32)
 }
 
 /* Blocchi del Main (i riquadri più grandi) */
@@ -44,7 +45,6 @@ header {
     height: 335px;
     padding-top: 15px;
     padding-bottom: 15px;
-    border: 1px solid grey;
 
 
 }
@@ -105,4 +105,57 @@ header {
 
 #green {
     background-color: green;
+}
+
+/* FOOTER */
+footer {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(42, 40, 40);
+
+}
+
+#endpage {
+    display: flex;
+    background-color: rosybrown;
+    flex-direction: row;
+    min-height: 330px;
+    border: 1px dotted white;
+
+
+}
+
+#social {
+    background-color: rgb(154, 75, 214);
+    width: 28%;
+}
+
+.page-column {
+    background-color: aquamarine;
+    width: 18%;
+    border: 1px dotted white;
+}
+
+#endline {
+    display: flex;
+    background-color: antiquewhite;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#whiteline {
+    border: 1px solid rgb(244, 239, 239);
+    height: 0px;
+    width: auto;
+}
+
+#logo-end,
+#button {
+    background-color: rgb(240, 83, 83);
 }
