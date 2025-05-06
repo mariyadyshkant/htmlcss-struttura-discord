@@ -17,9 +17,23 @@ header {
     width: 70%;
     height: 95%;
     justify-content: space-between;
-    background-color: rgb(245, 218, 178);
     border: 1px dotted black;
 
+}
+
+/* Jumbotron */
+.jumbotron {
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(155, 203, 83);
+}
+
+.yellowbox {
+    width: 50%;
+    height: 80%;
+    background-color: rgb(217, 217, 9);
 }
 
 /* Blocchi del Main (i riquadri più grandi) */
@@ -35,20 +49,35 @@ header {
 
 }
 
+/* Blocco con riquadro verde */
+.greenbox {
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-grey {
+    background-color: rgb(215, 214, 214);
+}
+
 /* Piccoli riquadri dell'header */
 #Logo {
     flex-grow: 1;
+    background-color: rgb(245, 218, 178);
 }
 
 #link {
     flex-grow: 6;
+    background-color: rgb(245, 218, 178);
 }
 
 #Login {
     flex-grow: 1;
+    background-color: rgb(245, 218, 178);
 }
 
-/* Riquadri piccoli del MAIN */
+/* Piccoli riquadri del MAIN */
 
 #img-1,
 #img-3 {
@@ -70,4 +99,10 @@ header {
 #text-2 {
     width: 65%;
     background-color: rgb(122, 163, 214);
+}
+
+/* RIQUADRO VERDE */
+
+#green {
+    background-color: green;
 }
