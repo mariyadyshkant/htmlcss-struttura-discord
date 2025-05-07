@@ -1,4 +1,4 @@
-/* Blocco Header */
+/* #region Blocco Header */
 header {
     background-color: rgb(196, 165, 225);
     height: 50px;
@@ -9,8 +9,12 @@ header {
     align-items: center;
 }
 
+/* #endregion Blocco Header */
 
-/* Container generale (uguale per tutti) */
+
+
+/* #region Container generale (uguale per tutti) */
+
 .container {
     display: flex;
     flex-direction: row;
@@ -21,7 +25,10 @@ header {
 
 }
 
-/* Jumbotron */
+/* #endregion Jumbotron */
+
+
+/* #region Jumbotron */
 .jumbotron {
     height: 270px;
     display: flex;
@@ -36,6 +43,9 @@ header {
     background-color: rgb(217, 217, 9);
     border: 1px dotted rgb(32, 151, 32)
 }
+
+/* #endregion Jumbotron */
+
 
 /* Blocchi del Main (i riquadri più grandi) */
 .txt-img {
@@ -63,17 +73,19 @@ header {
 
 /* Piccoli riquadri dell'header */
 #Logo {
-    flex-grow: 1;
+    width: 20%;
     background-color: rgb(245, 218, 178);
 }
 
 #link {
-    flex-grow: 6;
+    justify-content: center;
+    width: 60%;
     background-color: rgb(245, 218, 178);
+    list-style: none;
 }
 
 #Login {
-    flex-grow: 1;
+    width: 20%;
     background-color: rgb(245, 218, 178);
 }
 
